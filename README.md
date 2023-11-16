@@ -1,4 +1,4 @@
-# IEADMSCB
+# IEADMS
 
 <html lang="pt-BR">
 <head>
@@ -15,7 +15,7 @@
 
         header {
             background-color: #333;
-            color: white;
+            color: blue;
             padding: 1em;
             text-align: center;
         }
@@ -27,7 +27,7 @@
         }
 
         nav a {
-            color: white;
+            color: blue;
             text-decoration: none;
             padding: 1em;
         }
@@ -38,7 +38,7 @@
 
         footer {
             background-color: #333;
-            color: white;
+            color: blue;
             text-align: center;
             padding: 1em;
             position: fixed;
