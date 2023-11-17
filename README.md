@@ -46,9 +46,15 @@
     </style>
 </head>
 <body>
-
+body {
+  background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Figrejaeadms.org.br%2Fwp-content%2Fuploads%2F2022%2F06%2Ffachada_01-550.jpg&tbnid=l7jYcVRw0tHIaM&vet=12ahUKEwj3uuCr7MmCAxX-TLgEHb6YAYsQMygEegQIARBV..i&imgrefurl=https%3A%2F%2Figrejaeadms.org.br%2F&docid=8zhhGNhwbHUnJM&w=550&h=413&q=ieadms&ved=2ahUKEwj3uuCr7MmCAxX-TLgEHb6YAYsQMygEegQIARBV');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
     <header>
-        <h1>Igreja da Comunidade</h1>
+        <h1>Igreja Evangelica Assembleia de Deus de Mato Grosso do Sul</h1>
     </header>
 
     <nav>
