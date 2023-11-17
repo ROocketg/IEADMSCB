@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Igreja</title>
+    <title> IEADMS Corumbá </title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,14 +12,14 @@
         }
 
         header {
-            background-color: #333;
+            background-color: #666;
             color: white;
             padding: 1em;
             text-align: center;
         }
 
         nav {
-            background-color: #555;
+            background-color: #222;
             padding: 1em;
             text-align: center;
         }
@@ -54,7 +53,7 @@
 
     <nav>
         <a href="#home">Home</a>
-        <a href="#sobre">Sobre Nós</a>
+        <a href="https://www.instagram.com/ieadmscorumba/">Sobre Nós</a>
         <a href="#contato">Contato</a>
         <a href="#membros">Cadastro de Membros</a>
     </nav>
@@ -64,7 +63,7 @@
         <p>Seja bem-vindo ao nosso site. Aqui você encontrará informações sobre nossas atividades e eventos.</p>
     </section>
 
-    <section id="sobre">
+    <section id="https://www.instagram.com/ieadmscorumba/">
         <h2>Sobre Nós</h2>
         <p>Conheça mais sobre nossa igreja e nossa missão.</p>
     </section>
