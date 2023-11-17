@@ -1,88 +1,76 @@
-# IEADMS
-
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Igreja</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
         }
 
-        header {
-            background-color: #333;
-            color: blue;
-            padding: 1em;
+        .curiosities-container {
+            width: 80%;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .curiosity {
+            display: none;
             text-align: center;
         }
 
-        nav {
-            background-color: #555;
-            padding: 1em;
-            text-align: center;
-        }
-
-        nav a {
-            color: blue;
-            text-decoration: none;
-            padding: 1em;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        footer {
-            background-color: #333;
-            color: blue;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
+        .curiosity img {
             width: 100%;
+            max-width: 400px;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+
+        .arrow {
+            font-size: 30px;
+            color: #333;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
         }
     </style>
+    <title>Naruto Curiosidades</title>
 </head>
 <body>
 
-    <header>
-        <h1>Igreja da Comunidade</h1>
-    </header>
+<div class="curiosities-container">
+    <div class="curiosity" id="curiosity1">
+        <img src="naruto.jpg" alt="Naruto Uzumaki">
+        <p>Descrição do Naruto Uzumaki...</p>
+    </div>
+    <!-- Adicione mais divs de curiosidades para outros personagens -->
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#sobre">Sobre Nós</a>
-        <a href="#contato">Contato</a>
-        <a href="#membros">Cadastro de Membros</a>
-    </nav>
+    <div class="arrow" id="next">➔</div>
+</div>
 
-    <section id="home">
-        <h2>Bem-vindo à nossa igreja!</h2>
-        <p>Seja bem-vindo ao nosso site. Aqui você encontrará informações sobre nossas atividades e eventos.</p>
-    </section>
+<script>
+    let currentIndex = 1;
+    const totalCuriosities = document.querySelectorAll('.curiosity').length;
 
-    <section id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>Conheça mais sobre nossa igreja e nossa missão.</p>
-    </section>
+    document.getElementById('next').addEventListener('click', function () {
+        showCuriosity(currentIndex + 1);
+    });
 
-    <section id="contato">
-        <h2>Entre em Contato</h2>
-        <p>Você pode nos contatar através do seguinte email: <a href="mailto:contato@igreja.com">contato@igreja.com</a></p>
-    </section>
+    function showCuriosity(index) {
+        if (index > totalCuriosities) {
+            index = 1;
+        } else if (index < 1) {
+            index = totalCuriosities;
+        }
 
-    <section id="membros">
-        <h2>Cadastro de Membros</h2>
-        <p>Desculpe, esta funcionalidade ainda não está disponível no momento.</p>
-    </section>
+        currentIndex = index;
 
-    <footer>
-        <p>&copy; 2023 Igreja da Comunidade</p>
-    </footer>
+        document.querySelectorAll('.curiosity').forEach(curiosity => {
+            curiosity.style.display = 'none';
+        });
 
-</body>
-</html>
+        document.getElementById(`curiosity${index}`).style.display = 'block';
