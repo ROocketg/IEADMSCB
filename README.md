@@ -79,7 +79,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Igreja da Comunidade</p>
+        <center><p>&copy; 2023 Igreja da Comunidade</p></center>
     </footer>
 
 </body>
