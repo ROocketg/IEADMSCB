@@ -60,7 +60,17 @@
 
     <section id="home">
         <h2>Bem-vindo à nossa igreja!</h2>
-        <p>Seja bem-vindo ao nosso site. Aqui você encontrará informações sobre nossas atividades e eventos.</p>
+        
+        <b><p>Queridos irmãos e visitantes, É com grande alegria e gratidão que recebemos vocês em nosso site, representando a família da Igreja Evangélica Assembleia de Deus de Mato Grosso do Sul, localizada em Corumbá. Estamos honrados com a sua presença virtual, e queremos compartilhar um pouco do amor, da fé e da esperança que fazem parte da nossa comunidade.</b>
+
+<b>Nossa igreja tem o compromisso de levar a mensagem do Evangelho a todas as pessoas, buscando promover o conhecimento da Palavra de Deus e a transformação de vidas. Aqui, encontramos a base sólida da fé, o calor da comunhão fraterna e a força do amor cristão. Somos uma família que busca viver os princípios ensinados por Jesus Cristo, alicerçados na Bíblia Sagrada.</b>
+
+<b>Em nosso site, você encontrará informações sobre nossos cultos, eventos, ministérios e atividades que visam fortalecer o corpo de Cristo e impactar positivamente nossa comunidade. Estamos sempre empenhados em promover ações sociais, educacionais e espirituais que reflitam o amor de Deus em nossa cidade.</b>
+
+<b>Se você está em busca de respostas, consolo, esperança ou simplesmente deseja conhecer mais sobre a fé cristã, este é o lugar certo para você. Estamos aqui para servir, amar e compartilhar a mensagem do Evangelho com todos que cruzam o nosso caminho, pois acreditamos que a verdadeira felicidade e plenitude são encontradas em Jesus.</b>
+
+<b>Sinta-se à vontade para explorar nosso site, participar de nossos eventos e, principalmente, para se juntar a nós em nossos cultos. Estamos ansiosos para conhecê-lo melhor, compartilhar experiências e testemunhar juntos o poder transformador do amor de Deus.
+Que a graça e a paz do Senhor Jesus estejam sempre com você e sua família!.</b></p>
     </section>
 
     <section id="https://www.instagram.com/ieadmscorumba/">
