@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .curiosities-container {
+            width: 80%;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .curiosity {
+            display: none;
+            text-align: center;
+        }
+
+        .curiosity img {
+            width: 100%;
+            max-width: 400px;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+
+        .arrow {
+            font-size: 30px;
+            color: #333;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+        }
+    </style>
+    <title>Naruto Curiosidades</title>
+</head>
+<body>
+
+<div class="curiosities-container">
+    <div class="curiosity" id="curiosity1">
+        <img src="naruto.jpg" alt="Naruto Uzumaki">
+        <p>Descrição do Naruto Uzumaki...</p>
+    </div>
+    <!-- Adicione mais divs de curiosidades para outros personagens -->
+
+    <div class="arrow" id="next">➔</div>
+</div>
+
+<script>
+    let currentIndex = 1;
+    const totalCuriosities = document.querySelectorAll('.curiosity').length;
+
+    document.getElementById('next').addEventListener('click', function () {
+        showCuriosity(currentIndex + 1);
+    });
+
+    function showCuriosity(index) {
+        if (index > totalCuriosities) {
+            index = 1;
+        } else if (index < 1) {
+            index = totalCuriosities;
+        }
+
+        currentIndex = index;
+
+        document.querySelectorAll('.curiosity').forEach(curiosity => {
+            curiosity.style.display = 'none';
+        });
+
+        document.getElementById(`curiosity${index}`).style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
